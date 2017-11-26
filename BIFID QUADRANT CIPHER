@@ -12,7 +12,8 @@ Bifid Cipher
   	where the first row corresponds to the row coordinate and the second row corresponds to the column coordinate:
 
 	These two sets of numbers are then written side by side, paired into two's, and will be the new coordinates of the cipher text:
-    		1  1  4  2  1  4  →  1,1   4, 2   1,4
+    		
+		1  1  4  2  1  4  →  1,1   4, 2   1,4
     		1,1 = A;  4,2 = R;  1,4 = D
     		Cipher text = ARD
     
@@ -22,9 +23,11 @@ Four-Square Cipher
   	alphabet to fit. In general, the upper-left and lower-right matrices are the "plaintext squares" and each contain a 
   	standard alphabet. The upper-right and lower-left squares are the "cipher text squares" and contain a mixed alphabetic sequence. 
 	For the specific steps involved in this cipher, the following is used:
+		
 		Plaintext: BATS
 		Key 1: NIGHT
 		Key 2: ECHO
+		
 	The upper left and lower right matrices shall consist of the alphabet in order, while the upper right and lower left matrices 
   	shall consist of key 1 and key 2, respectively.
 
@@ -35,7 +38,8 @@ Four-Square Cipher
 
 	The corresponding cipher text for b is the letter N while the corresponding cipher text for a is the letter C. This process is 
   	repeated until the final pair of letters, which would result to the following cipher text:
-        		NCRT
+        		
+			NCRT
 
 	The Bifid Quadrant Cipher combines the coordinate feature of the Bifid Cipher and the four separate 5x5 grids of the Four-Square 
   	Cipher, making it into one 10x10 grid. 
